@@ -4,7 +4,7 @@ import os
 directory = r'C:\Users\SHRUTI IT\OneDrive\Documents\python'
 
 # List all .py files in the directory
-files = [f for f in os.listdir(directory) if f.endswith('.py')]
+files = [f for f in os.listdir(directory) if f.startswith('task')]
 
 # Open a file to write the combined content
 with open('combined_script.py', 'w') as outfile:
