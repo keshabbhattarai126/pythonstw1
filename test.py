@@ -28,4 +28,3 @@
 #         # j=j.upper()
 #      print(i,j)
 
-a = {'ram':1}
